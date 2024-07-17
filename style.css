@@ -1,0 +1,70 @@
+:root {
+  --oreange: #e4423e;
+  --white: #fff;
+
+  --blue: #2a3358;
+}
+
+@font-face {
+  font-family: 'SB Edila';
+  /* src: url('./fonts/SB Edila.otf') format('opentype'); */
+
+  src: url('./fonts/SB Edila.ttf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SB Edila';
+  font-size: 1.18rem;
+  background: black;
+  color: white;
+  font-weight: 100;
+
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: var(--oreange);
+}
+
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  color: var(--blue);
+  line-height: 0.8;
+
+  padding: 2.7rem 0 0 0;
+  margin: 0;
+}
+
+.hero-main {
+  font-size: 12rem;
+  padding: 46px 0;
+  letter-spacing: 5px;
+}
+
+.hero-main h1 {
+  margin: 0;
+  line-height: 0.8;
+}
+
+.symbol {
+  font-size: 6rem;
+  line-height: 0.1;
+  padding-bottom: 5px;
+}
+
+.hero-main-top {
+  padding-bottom: 5px;
+}
+
+.hero-main-bottom {
+  color: var(--blue);
+}
